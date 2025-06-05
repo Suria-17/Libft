@@ -6,7 +6,7 @@
 /*   By: sramasam <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 20:37:46 by sramasam          #+#    #+#             */
-/*   Updated: 2025/05/31 16:38:22 by sramasam         ###   ########.fr       */
+/*   Updated: 2025/06/04 18:13:21 by sramasam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,12 +49,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 /*int	main(void)
 {
-	char const test1[] = "+++HELLO THERE+++";
+	char const test1[] = "my name is name";
 	char *result;
 
 	printf("Ori : %s\n", test1);
 
-	result = ft_strtrim(test1, "+");
+	result = ft_strtrim(test1, "name");
 	printf("After : %s\n", result);
 	free(result);
 	return (0);
